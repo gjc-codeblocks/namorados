@@ -1,0 +1,666 @@
+.col-lg-4 {
+  float: left;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  float: none; }
+
+.noite .main-container:last-child {
+  margin-bottom: 70px; }
+
+section {
+  width: 100%;
+  height: 900px; }
+  section .img-container {
+    margin-bottom: 70px; }
+  section .titulo {
+    padding-top: 30px;
+    padding-bottom: 20px; }
+  section .main-container {
+    height: calc(100% - 108px); }
+    section .main-container .list-container {
+      min-height: 406px;
+      margin-top: 30px; }
+      section .main-container .list-container .checkbox {
+        width: 25px;
+        height: 25px;
+        border-radius: 5px;
+        border: 2px solid #624c39;
+        padding: 0;
+        cursor: pointer; }
+        section .main-container .list-container .checkbox span {
+          display: none; }
+      section .main-container .list-container .name {
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: #624c39;
+        margin-top: 10px; }
+      section .main-container .list-container .info {
+        margin-top: 10px;
+        cursor: pointer; }
+        section .main-container .list-container .info:hover svg {
+          width: 22px;
+          height: 22px; }
+      section .main-container .list-container .selecionado {
+        background-color: #e66f5b;
+        padding: 4px;
+        border: 2px solid #e66f5b; }
+        section .main-container .list-container .selecionado span {
+          font-size: 12px;
+          display: block !important;
+          color: #fff; }
+      section .main-container .list-container .item-list {
+        margin-bottom: 15px; }
+    section .main-container .img-container {
+      min-height: 406px;
+      margin-top: 30px; }
+      section .main-container .img-container .section-img {
+        width: 300px;
+        height: 415px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto; }
+    section .main-container .description {
+      margin-top: 50px; }
+      section .main-container .description h1 {
+        color: #624c39;
+        font-family: "Bad Script", cursive;
+        font-size: 26px;
+        text-align: center;
+        font-weight: bold;
+        line-height: 1.5; }
+
+.caneca {
+  text-align: center; }
+
+.publicidade {
+  height: 700px; }
+  .publicidade h1 {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .publicidade .publicidade-content {
+    width: 300px;
+    height: 615px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto; }
+
+.publicidade-arroba {
+  height: 300px;
+  padding: 0; }
+  .publicidade-arroba h1 {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .publicidade-arroba .publicidade-content {
+    width: 300px;
+    height: 250px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto; }
+
+.compatilhar-popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+  .compatilhar-popup:before {
+    content: "";
+    background-color: #333745;
+    opacity: .8;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; }
+  .compatilhar-popup .compartilhar-card {
+    width: 700px;
+    height: 450px;
+    background-color: #fff;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 99; }
+    .compatilhar-popup .compartilhar-card .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 999; }
+    .compatilhar-popup .compartilhar-card .frase {
+      width: 100%;
+      height: 70px;
+      float: left;
+      margin-top: 5px; }
+      .compatilhar-popup .compartilhar-card .frase h1 {
+        font-family: 'Lora', serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: #666666;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 5px; }
+      .compatilhar-popup .compartilhar-card .frase h2 {
+        font-family: 'Lora', serif;
+        font-size: 16px;
+        font-weight: bold;
+        color: #666666;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 5px; }
+    .compatilhar-popup .compartilhar-card .left-column {
+      padding-right: 0; }
+      .compatilhar-popup .compartilhar-card .left-column .col-md-12 {
+        padding-left: 0px;
+        padding-right: 0; }
+      .compatilhar-popup .compartilhar-card .left-column .frase-resultado {
+        font-family: 'Lora', serif;
+        font-size: 18px;
+        margin-top: 60px;
+        line-height: 1.5; }
+      .compatilhar-popup .compartilhar-card .left-column .legenda {
+        width: 100%;
+        height: 125px;
+        margin-top: 10px; }
+        .compatilhar-popup .compartilhar-card .left-column .legenda h1 {
+          font-size: 12px;
+          float: left;
+          margin: 5px 5px; }
+        .compatilhar-popup .compartilhar-card .left-column .legenda .circle {
+          width: 10px;
+          height: 10px;
+          float: left;
+          border-radius: 50%;
+          margin: 5px 0; }
+      .compatilhar-popup .compartilhar-card .left-column .cafe .circle {
+        background-color: #EBD462; }
+      .compatilhar-popup .compartilhar-card .left-column .espacos .circle {
+        background-color: #99C3B9; }
+      .compatilhar-popup .compartilhar-card .left-column .restaurantes .circle {
+        background-color: #E66F5B; }
+      .compatilhar-popup .compartilhar-card .left-column .bares .circle {
+        background-color: #624C39; }
+      .compatilhar-popup .compartilhar-card .left-column .noite .circle {
+        background-color: #9C47BF; }
+      .compatilhar-popup .compartilhar-card .left-column .voltar-btn {
+        font-size: 12px;
+        font-weight: bold;
+        color: #3FA9F5;
+        text-tranform: uppercase;
+        background-color: #fff;
+        padding: 5px 15px;
+        border: 3px solid #3FA9F5;
+        border-radius: 0;
+        margin-top: 5px;
+        margin-left: 25px; }
+    .compatilhar-popup .compartilhar-card .right-column .patrocinio {
+      width: 100%;
+      height: 250px;
+      background-color: gray; }
+    .compatilhar-popup .compartilhar-card .right-column h1 {
+      font-family: 'Lora', serif;
+      font-size: 16px;
+      text-align: center;
+      font-weight: bold;
+      color: #666666; }
+    .compatilhar-popup .compartilhar-card .right-column .compartilhar-btn {
+      font-weight: bold;
+      text-transform: uppercase;
+      background-color: #3FA9F5;
+      border: 3px solid #3FA9F5;
+      border-radius: 0;
+      color: #fff; }
+    .compatilhar-popup .compartilhar-card svg {
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      right: 20px;
+      background: url("../img/3A206FDF.png");
+      background-size: 135px;
+      background-repeat: no-repeat;
+      background-position: 105px 125px; }
+    .compatilhar-popup .compartilhar-card .botoes {
+      position: absolute;
+      bottom: 20px;
+      right: 20px; }
+    .compatilhar-popup .compartilhar-card .sair {
+      font-size: 12px;
+      font-weight: bold;
+      color: #3FA9F5;
+      text-transform: uppercase;
+      padding: 5px 15px;
+      border-radius: 0;
+      border: 3px solid #3FA9F5;
+      background-color: #fff; }
+    .compatilhar-popup .compartilhar-card .compatilhar {
+      font-size: 12px;
+      font-weight: bold;
+      color: #fff;
+      text-transform: uppercase;
+      padding: 5px 15px;
+      border-radius: 0;
+      border: 3px solid #3FA9F5;
+      background-color: #3FA9F5; }
+
+.cafes .cafe-svg {
+  text-align: center; }
+.cafes .section-img {
+  background: url("../img/cafe.png"); }
+
+.restaurante .restaurante-svg {
+  text-align: center; }
+.restaurante .section-img {
+  background: url("../img/restaurante.png"); }
+
+.espacos .espacos-svg {
+  text-align: center; }
+.espacos .section-img {
+  background: url("../img/espacos.png"); }
+
+.noite .noite-svg {
+  text-align: center; }
+.noite .section-img {
+  background: url("../img/noite.png"); }
+
+.bares .bares-svg {
+  text-align: center; }
+.bares .section-img {
+  background: url("../img/bares.png"); }
+
+.info-popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+  .info-popup:before {
+    content: "";
+    background-color: #333745;
+    opacity: .8;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; }
+  .info-popup .card {
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 99; }
+    .info-popup .card .titulo {
+      font-family: "Lora", serif;
+      color: #fff; }
+    .info-popup .card .descricao {
+      font-family: "Open Sans", sans-serif;
+      font-size: 12px;
+      color: #fff; }
+    .info-popup .card .trip {
+      position: absolute;
+      bottom: 10px; }
+      .info-popup .card .trip .socialWidget {
+        margin-left: 80px; }
+    .info-popup .card .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 999; }
+    .info-popup .card .img {
+      width: 270px;
+      height: 100%;
+      float: left;
+      position: relative;
+      overflow: hidden; }
+      .info-popup .card .img img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        overflow-x: hidden; }
+    .info-popup .card .content {
+      width: 330px;
+      height: 310px;
+      padding-left: 20px;
+      padding-right: 20px;
+      float: left;
+      position: relative;
+      background-color: #e66f5b; }
+    .info-popup .card .social-content {
+      width: 330px;
+      height: 90px;
+      float: left; }
+      .info-popup .card .social-content .facebook {
+        width: 50px;
+        height: 100%;
+        float: left;
+        margin-left: 20px;
+        text-align: center; }
+        .info-popup .card .social-content .facebook svg {
+          margin-top: 60%; }
+      .info-popup .card .social-content .instagram {
+        width: 50px;
+        height: 100%;
+        float: left;
+        text-align: center; }
+        .info-popup .card .social-content .instagram svg {
+          margin-top: 60%; }
+      .info-popup .card .social-content .local {
+        width: 50px;
+        height: 100%;
+        float: left;
+        text-align: center; }
+        .info-popup .card .social-content .local svg {
+          width: 100%;
+          margin-top: 60%; }
+      .info-popup .card .social-content .site h1 {
+        font-size: 16px;
+        font-weight: bold;
+        color: #624C39;
+        margin-top: 35px;
+        float: left; }
+
+.facebook-img {
+  width: 300px;
+  position: absolute; }
+
+.footer {
+  height: 50px;
+  overflow: hidden;
+  background-color: #333745;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: height .5s; }
+  .footer .instrucao h1 {
+    font-size: 14px;
+    color: #808080;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 15px; }
+  .footer .myBtn {
+    width: 160px;
+    height: 34px;
+    background-color: #3fa9f5;
+    color: #fff;
+    margin-top: 8px;
+    border-radius: 0px;
+    text-transform: uppercase; }
+  .footer .espacos .nome {
+    font-size: 13px !important;
+    margin-top: 15px; }
+  .footer .categoria-calculo {
+    float: left; }
+    .footer .categoria-calculo .nome {
+      cursor: pointer;
+      float: left;
+      font-size: 14px;
+      text-transform: uppercase; }
+    .footer .categoria-calculo .valor {
+      width: 65px;
+      padding: 0;
+      font-size: 38px;
+      float: left;
+      margin: 0;
+      margin-top: 5px;
+      margin-left: 0px;
+      text-align: right; }
+    .footer .categoria-calculo .simbolo {
+      font-size: 18px;
+      padding: 0;
+      float: left; }
+  .footer .restaurante {
+    color: #e66f5b; }
+    .footer .restaurante .nome {
+      min-width: 125px; }
+  .footer .espacos {
+    color: #99c3b9; }
+  .footer .cafes {
+    color: #ebd462; }
+  .footer .bares {
+    color: #edeedd; }
+  .footer .noite {
+    color: #9c47bf; }
+
+@media screen and (max-width: 800px) {
+  .compatilhar-popup {
+    margin-top: 70px !important; }
+
+  section {
+    height: 2150px; }
+
+  .section-content:last-child {
+    margin-bottom: 50px; }
+
+  .titulo svg {
+    width: 100%; }
+
+  .item-list {
+    padding: 0; }
+
+  .img-container {
+    margin-top: 30px;
+    float: left !important; }
+
+  .description {
+    text-align: center; }
+
+  .info {
+    text-align: center; }
+
+  .categoria-calculo {
+    width: 100%; }
+    .categoria-calculo h2 {
+      padding: 0; }
+
+  .expandido {
+    height: 340px; }
+
+  .instrucao {
+    text-align: center; }
+    .instrucao h1 {
+      font-size: 18px;
+      color: #fff !important; }
+
+  .myBtn {
+    width: 100% !important; }
+
+  .expandido {
+    height: 350px !important; }
+
+  .footer {
+    height: 80px; }
+
+  .btn-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0; }
+
+  .compartilhar-card {
+    position: absolute !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: initial !important;
+    height: initial !important;
+    margin: 0 !important;
+    oveflow-x: hidden;
+    overflow-y: scroll; }
+
+  .left-column {
+    position: absolute;
+    top: 350px; }
+    .left-column .frase-resultado {
+      position: absolute;
+      top: 100px;
+      text-align: center;
+      margin-left: 40px;
+      color: #666666; }
+      .left-column .frase-resultado strong {
+        font-size: 24px; }
+    .left-column .legenda {
+      position: absolute;
+      top: 0;
+      left: 50px; }
+      .left-column .legenda h1 {
+        font-size: 16px !important; }
+
+  .middle-column {
+    position: absolute;
+    top: 30px;
+    right: 50%;
+    margin-right: -150px; }
+
+  .right-column {
+    position: absolute;
+    top: 600px;
+    margin-bottom: 100px; }
+    .right-column h1 {
+      font-size: 20px !important; }
+    .right-column .btn {
+      margin: 0 !important; }
+    .right-column .voltar-btn {
+      font-size: 12px;
+      font-weight: bold;
+      color: #3FA9F5;
+      text-tranform: uppercase;
+      background-color: #fff;
+      padding: 5px 15px;
+      border: 3px solid #3FA9F5;
+      border-radius: 0;
+      margin-top: 5px !important;
+      margin-left: 25px; } }
+@media screen and (min-width: 1000px) {
+  .voltar-btn {
+    display: none; } }
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  .info-popup {
+    z-index: 99; }
+
+  .card {
+    width: 100% !important;
+    height: 300px !important;
+    margin-top: 0  !important; }
+    .card .img {
+      width: 30% !important;
+      height: 100% !important; }
+    .card .content {
+      width: 70% !important;
+      height: 215px !important; } }
+@media screen and (max-width: 700px) and (orientation: portrait) {
+  .info-popup {
+    margin-top: 70px;
+    overflow-y: scroll; }
+
+  .card {
+    width: 100% !important;
+    height: 650px !important;
+    margin: 0 !important; }
+    .card .img {
+      width: 100% !important;
+      height: 200px !important; }
+      .card .img img {
+        margin: 0 auto !important; }
+    .card .content {
+      width: 100% !important;
+      height: 300px !important; }
+
+  .diablo .img {
+    background-color: black; }
+  .diablo img {
+    margin: auto -25% !important; }
+
+  .repdasaude img {
+    width: 270px !important; }
+
+  .carino img {
+    width: 100%; }
+  .carino .descricao {
+    font-size: 11px !important; }
+
+  .dororo img {
+    width: 100%; }
+
+  .bahrem img {
+    margin: auto -125% !important; }
+
+  .bargordo .img {
+    background-color: black; }
+  .bargordo img {
+    width: 100%; }
+
+  .jequitiba img {
+    width: 100%; } }
+@media screen and (min-width: 800px) and (max-width: 1500px) {
+  .footer:hover {
+    height: 100px; } }
+@media screen and (max-width: 800px) and (orientation: portrait) and (min-width: 600px) {
+  section {
+    height: 2500px !important; }
+
+  .publicidade {
+    display: none; }
+
+  .titulo-desktop {
+    display: none; }
+
+  .list-container {
+    width: 500px;
+    min-height: 600px !important;
+    margin-left: auto;
+    margin-right: auto;
+    float: none; } }
+.diablo .img {
+  background-color: black; }
+.diablo img {
+  margin: auto -25% !important; }
+
+.repdasaude img {
+  width: 270px !important; }
+
+.carino img {
+  width: 100%; }
+.carino .descricao {
+  font-size: 11px !important; }
+
+.dororo img {
+  width: 100%; }
+
+.bahrem img {
+  margin: auto -125% !important; }
+
+.bargordo .img {
+  background-color: black; }
+.bargordo img {
+  width: 100%; }
+
+.jequitiba img {
+  width: 100%; }
+
+.scada img {
+  height: 100%;
+  margin: auto -90% !important; }
+
+/*# sourceMappingURL=namorados.css.map */

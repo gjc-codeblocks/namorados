@@ -1,0 +1,52 @@
+header{
+	position: fixed;
+	z-index: 999;
+}
+
+section{padding-top: 70px;}
+
+.daqui-header{
+	width: 100%;
+	height: 70px;
+	
+	text-align: center;
+	
+	background-color: #fce40d;
+	border-bottom: 5px solid #bb3e37;
+	
+	svg{
+		height: 100%;
+	}
+}
+
+.ludovica-header{
+	width: 100%;
+	height: 70px;
+	
+	text-align: center;
+	
+	background-color: #fff;
+	border-bottom: 5px solid #6d6e70;
+	
+	svg{
+		height: 45px;
+		margin-top: 10px;
+		fill: #b91e41;
+	}
+}
+
+.opopular-header{
+	width: 100%;
+	height: 70px;
+	
+	text-align: center;
+	
+	background-color: #164194;
+	border-bottom: 5px solid #142f4f;
+	
+	svg{
+		height: 50px;
+		margin-top: 10px;
+		fill: #b91e41;
+	}
+}
